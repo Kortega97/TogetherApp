@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>Together profile page</title>
+	<link rel="icon" href="" type="image/png" sizes="16x16">
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+	<div class="wavy-wraper">
+		<div class="wavy">
+			<span style="--i:1;">T</span>
+			<span style="--i:2;">o</span>
+			<span style="--i:3;">g</span>
+			<span style="--i:4;">e</span>
+			<span style="--i:5;">t</span>
+			<span style="--i:6;">h</span>
+			<span style="--i:7;">e</span>
+			<span style="--i:8;">r</span>
+			<span style="--i:9;">.</span>
+			<span style="--i:10;">.</span>
+		</div>
+	</div>
+	<div class="theme-layout">
+		<div class="topbar stick">
+			<div class="logo">
+				<a title="" href="newsfeed.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="top-area">
+
+
+
+				<div class="top-search">
+					<form action="/search" method="">
+						<input type="text" name="key" placeholder="Key Word">
+						<button class="submit" type="submit">Submit</button>
+					</form>
+				</div>
+				<div class="page-name">
+					<span>Home Page</span>
+				</div>
+
+				<div class="user-img">
+					<% if (user.local.email) { %>
+					<a class="h4 author-name" href="/profile"><%= user.local.email %></a>
+					<% } %>
+					<img  class='logo'src="images/profilePicture.png" alt="">
+					
+					<div class="user-setting">
+						<ul class="chat-setting">
+							<ul class="log-out">
+								<li><a href="/login" title=""><i class="ti-power-off"></i>log out</a></li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+				<!-- <span class="ti-settings main-menu" data-ripple=""></span> -->
+			</div>
+
+		</div><!-- topbar -->
+
+		<div class="fixed-sidebar right">
+
+		</div> <!-- right sidebar user chat  -->
+
+		<div class="fixed-sidebar left">
+
+			<div class="left-menu-full">
+
+			</div>
+		</div><!-- left sidebar menu -->
+
+		<section>
+			<div class="gap2 gray-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row merged20">
+								<div class="user-profile">
+									<figure>
+
+										<img src="images/finalbanner.png" alt="">
+
+										</ul>
+
+									</figure>
+
+									<div class="profile-section">
+										<div class="row">
+											<div class="col-lg-2">
+												<div class="profile-author">
+													<div class="profile-author-thumb">
+														<img alt="author" src="images/profilePicture.png">
+
+													</div>
+													<div class="author-content">
+														<% if (user.local.email) { %>
+														<a class="h4 author-name"
+															href="02-ProfilePage.html"><%= user.local.email %></a>
+														<% } %>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-10 col-md-9">
+												<ul class="nav nav-tabs links-tab">
+													<li class="nav-item"><a class="active" href="#link1"
+															data-toggle="tab">Profile</a></li>
+													<li class="nav-item"><a class="" href="#link2"
+															data-toggle="tab">Create</a></li>
+													<li class="nav-item"><a class="" href="#link6"
+															data-toggle="tab">Community</a></li>
+												</ul>
+
+											</div>
+										</div>
+									</div>
+								</div><!-- user profile banner  -->
+								<div class="col-lg-12">
+									<div class="tab-content">
+										<div class="tab-pane active fade show" id="link1">
+											<div class="row merged20" id="page-contents">
+												<div class="col-lg-4 col-md-4">
+													<aside class="sidebar">
+														<div class="central-meta stick-widget">
+															<span class="create-post">User Info</span>
+
+															<% if (user.local.email) { %>
+															<p>
+																<img src="#" alt="">
+																<strong>User name</strong>: <%= user.local.email %><br>
+															</p>
+
+															<a href="/unlink/local" class="btn btn-default">Unlink</a>
+															<% } else { %>
+															<a href="/signup" class="btn btn-default">Create New User?</a>
+															<% } %>
+
+														</div>
+													</aside>
+												</div>
+												<div class="col-lg-8 col-md-8">
+													<div class="central-meta">
+														<span class="create-post">Created Groups</span>
+														<% if (user.local.email) { %>
+														<section class="groupContainer">
+															<% for(let i=0; i<groups.length; i++) {%>
+															<section class="group central-meta">
+																<span name="name" class="create-post">Name:<p >
+																		<%= groups[i].name %></p></span>
+																<span name="msg" class="create-post">Focus:<p  >
+																		<%= groups[i].msg %></p></span>
+																<span name="rules" class="create-post">Rules:<p >
+																		<%= groups[i].rules %></p></span>
+																<span name='key' class="create-post" >KeyWord:<p >
+																		<%= groups[i].key %></p></span>
+																<button class='join btn btn-default' name='join'>
+																	<a class=""
+																		href=<%='/message/'+ groups[i].name %>>join</a></button>
+															</section>
+															<% } %>
+															<% } %>
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane" id="link2">
+											<div class="row merged20" id="page-contents">
+												<div class="col-lg-4 col-md-4">
+													<aside class="sidebar">
+														<div class="central-meta stick-widget">
+															<span class="create-post">Group Information</span>
+															<div class="personal-head">
+																<% if (user.local.email) { %>
+																<form class='group createGroups' action="/groups" method="POST">
+																	<button class="submit" type="submit">Submit</button>
+
+																	<span class="f-title"><i class="fa"></i>
+																		Group
+																		Name:</span>
+																	<input type="text" placeholder="Group Name"
+																		name="name">
+																	<span class="f-title"><i
+																			class="fa"></i> Group
+																		About:</span>
+																	<input type="text" placeholder="Group Summary"
+																		name="msg">
+
+																	<span class="f-title"><i class="fa"></i>
+																		Group
+																		Rules:</span>
+																	<input type="text" placeholder="Group Rules"
+																		name="rules">
+
+																	<span class="f-title"><i class="fa fa-key"></i>
+																		Group
+																		KeyWord:</span>
+																	<input class='key' type="text"
+																		placeholder="Group KeyWord" name="key">
+
+																</form>
+																<% } %>
+															</div>
+														</div>
+													</aside>
+												</div>
+												<div class="col-lg-8 col-md-8">
+													<div class="central-meta">
+														<span class="create-post">Created Groups</span>
+														<% if (user.local.email) { %>
+														<section class="groupContainer">
+															<% for(let i=0; i<groups.length; i++) {%>
+															<section class="group central-meta">
+																<span name="name" class="oldName name create-post">Name:<p>
+																		<%= groups[i].name %></p></span>
+																<span name="msg" class="create-post msg">Focus:<p>
+																		<%= groups[i].msg %></p></span>
+																<span name="rules" class="create-post rules ">Rules:<p>
+																		<%= groups[i].rules %></p></span>
+																<span name="key" class="create-post key ">Key Word:<p>
+																		<%= groups[i].key %></p></span>
+																<button class=' btn btn-default join' name='join'><a
+																		href=<%= '/message/' + groups[i].name %>>join</a></button>
+																<button class='editButton btn btn-default'
+																	name='edit'>edit</button>
+
+																	<% if(user.local.email === groups[i].author){ %>
+																	<form action = 'groups/<%groups.author%>?_method=DELETE' method='POST'>
+																	<span class='trash'><i class=" fa fa-trash"
+																		aria-hidden="true"></i></span>
+																	</form>
+																	<%
+																	}%>
+																
+
+
+															</section>
+															<section class=" central-meta bob displayEdit ">
+																	<!-- TODO: -->
+																	<input class='name' type="text"
+																		placeholder="Group Name" name="name">
+																	<input class='msg' type="text"
+																		placeholder="Group Summary" name="msg">
+																	<input class='rules' type="text"
+																		placeholder="Group Rules" name="rules">
+																	<input class='key' type="text"
+																		placeholder="Group KeyWord" name="key">
+																	<button class='edit btn btn-default'
+																		name='edit'>submit</button>
+																</section>
+														
+														<% } %>
+													</section>
+														<% } %>
+
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="link6">
+											<div class="central-meta">
+												<form action="/search" method="">
+													<input type="text" name="key" placeholder="Key Word">
+													<button class="submit "id='submitSearch' type="submit">Submit</button>
+												</form>
+											</div>
+											<% for(let i=0; i<groups.length; i++) {%>
+											<section class=" central-meta group">
+												<span class="create-post">Name:<p><%= groups[i].name %></p></span>
+												<span class="create-post">Rules:<p><%= groups[i].msg %></p></span>
+												<span class="create-post">Focus:<p><%= groups[i].rules %></p></span>
+												<span class="create-post">Key Word:<p><%= groups[i].key %></p></span>
+												<button class=' btn btn-default join' name='join'>
+													<a href=<%='/message/'+groups[i].name %>>join</a></button>
+											</section>
+											<% } %>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="bottombar">
+			<div class="container">
+
+			</div>
+		</div>
+
+
+
+
+		<script src="/js/main.min.js"></script>
+		<script src="/js/script.js"></script>
+		<script src="/main.js"></script>
+</body>
+
+</html>

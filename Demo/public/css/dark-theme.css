@@ -1,0 +1,827 @@
+
+/*
+[Master Stylesheet]
+
+Project Name: Pitnik Dark theme
+Version:    1.2 Dark
+updated: 	13 March 2020
+
+*/
+.topbar {
+    background: #21283b none repeat scroll 0 0;
+}
+
+.gray-bg {
+    background: #060818 none repeat scroll 0 0;
+}
+.sidebar .widget {
+    background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.sidebar .widget-title {
+    border-color: #272f41;
+    color: #fff;
+}
+.central-meta {
+    background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.create-post {
+    border-color: #272f41;
+    color: #fff;
+}
+.fixed-sidebar {
+    background: #1d2333 none repeat scroll 0 0;
+}
+.attachments {
+    background: transparent none repeat scroll 0 0;
+}
+.newpst-input textarea {
+    background: #282e3e;
+    border: 1px solid #182130;
+    color: #fff;
+}
+.more-post-optns::before {
+    background: #00001a none repeat scroll 0 0;
+}
+.more-post-optns > ul {
+    background: #00001a none repeat scroll 0 0;
+}
+.more-post-optns > ul > li i {
+    color: #fff;
+}
+.page-meta > a {
+    color: #fff;
+}
+.we-comment {
+    border-color: #272f41;
+}
+.we-video-info {
+    border-color: #272f41;
+}
+.users-thumb-list > a img {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.we-video-info > .users-thumb-list > span b {
+    color: #fff;
+}
+.bottombar, footer {
+    background: #070a21 none repeat scroll 0 0;
+}
+footer .widget-title > h4 {
+    color: #fff;
+}
+.list-style > li > i {
+    color: #fff;
+}
+footer:before{
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #060818 0%, #fa6342 50%, #060818 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -o-linear-gradient(left, #060818 0%, #fa6342 50%, #060818 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #060818 0%, #fa6342 50%, #060818 100%) repeat scroll 0 0;
+}
+.page-publishes {
+    border-color: #272f41;
+}
+.short-profile > li {
+    border-color: #272f41;
+}
+.short-profile li span {
+    color: #fff;
+}
+.we-comment > h5 {
+    color: #fa6342;
+}
+.widget .twiter-feed > li > span i {
+    color: #fa6442;
+}
+.left-menu > li a::before{
+	background: rgba(0,0,0,.3);
+}
+.dropdowns,
+.user-setting,
+.user-setting > ul li a,
+.side-panel{
+    background: #00001a none repeat scroll 0 0;
+}
+.side-panel,
+.setting-row{
+	border-color: #272f41;
+}
+.panel-title{
+	color: #fff;
+}
+.top-area > ul > li > a.active::after,
+.user-setting::before{
+    border-bottom-color: #00001a;
+}
+.user-setting > ul li a:hover{background: #0b1024;}
+.seting-title{border-color: #272f41; color: #fff;}
+.dropdowns > form input {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border-color: #272f41;
+    color: #8f8f8f;
+}
+.dropdowns > span {
+    border-color: #272f41;
+    color: #fff;
+}
+.drops-menu > li > a, .drops-menu > li > div {
+    border-color: #272f41;
+}
+.drops-menu > li:nth-child(2n) > a, .drops-menu > li:nth-child(2n) > div {
+    background: #0b1024 none repeat scroll 0 0;
+}
+.drops-menu > li > a:hover {
+    background: #0b1024 none repeat scroll 0 0;
+}
+.mesg-meta > h6 {
+    color: #fff;
+}
+.dropdowns.active > a {
+    background: #001229 none repeat scroll 0 0;
+}
+.dropdowns.active > a:hover {
+    background: #102239 none repeat scroll 0 0;
+}
+.nav-list {
+    background: #001027 none repeat scroll 0 0;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.15);
+}
+.profile-section {
+    background: #243152 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.author-name {
+    color: #fa6342;
+}
+.profile-menu > li > a {
+    color: #fff;
+}
+.left-menu > li a.menu-small::before,
+.profile-controls > li > a, .profile-controls > li > div,
+.sociaz-media > li > a,
+.remove-frnd > a{
+	background: #616a82;
+}
+.help-drop > li a:hover{
+	color: #fa6342;
+}
+.setting-row input + label {
+    background-color: #616a82;
+}
+.gen-metabox > span {
+    color: #fff;
+}
+.f-title {
+    color: #fff;
+}
+.page-header {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fa6342+2,151e54+100 */
+background: rgb(250,99,66); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(250,99,66,1) 2%, rgba(21,30,84,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(250,99,66,1) 2%,rgba(21,30,84,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(250,99,66,1) 2%,rgba(21,30,84,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa6342', endColorstr='#151e54',GradientType=0 ); /* IE6-9 */
+
+
+border-color: #060818;
+
+}
+.fixed-sidebar .left-menu-full > ul li a {
+    color: #d9d9d9;
+}
+.fixed-sidebar .left-menu-full > ul li a:hover i {
+    color: #fff;
+}
+body {
+    background: #060818 none repeat scroll 0 0;
+}
+.badge-box {
+    background: #1d2333 none repeat scroll 0 0;
+}
+.badge-box > h5 {
+    color: #fff;
+}
+.author-info > h4 {
+    color: #fff;
+}
+.attachments li.preview-btn button{
+	background: #fa6342;
+	color: #fff;
+	border-color: inherit;
+}
+.btn-view.btn-load-more{
+	background: #fa6342;
+}
+.btn-view.btn-load-more::before{color: #fff;}
+.top-search form input{background: rgba(0,0,0,.3);}
+.post-comt-box form textarea{
+	background: #282e3e;
+}
+.smiles-bunch{
+	background: #00001a;
+	box-shadow: unset;
+}
+.smiles-bunch::before{
+	border-top-color: #00001a;
+}
+.suggested-frnd-caro .owl-item > li, .frndz-list .owl-item > li {
+    background: #1d2333 none repeat scroll 0 0;
+    border: 1px solid #272f41;
+}
+.sugtd-frnd-meta > a{color: #fff;}
+.more .more-dropdown{
+	background: #00001a;
+	
+}
+.more .more-dropdown > li a:hover, .profile-controls > li ul.more-dropdown > li > a:hover,
+.dropdown-meganav-select-list-lang > li > a:hover{
+	background: #0b1024;
+	color: #fff;
+}
+.owl-prev::before, .owl-next::before{
+	background: #0b1024;
+}
+.title-block h5 {
+    color: #fff;
+}
+.select-options .chosen-single > span{color: #fff;}
+.chosen-container-single .chosen-search input[type="text"]{
+	border-color: #343c4e; 
+}
+.description > h2 {
+    color: #fff;
+}
+.menu .btn{
+	background: rgba(0,0,0,.2);
+}
+.nav.nav-tabs.likes-btn > li a{background: rgba(0,0,0,.4);}
+.page-likes .tab-content .tab-pane > span{color: #fff;}
+.jobbox-title > h5{color: #fff;}
+
+.title-block form input,
+.chosen-container-single .chosen-single,
+.chosen-container.chosen-with-drop .chosen-drop,
+.c-form > div input, .c-form > div textarea, .c-form > input, .c-form > textarea{
+    background: #282e3e none repeat scroll 0 0;
+    border-color: #272f41;
+    color: #fff;
+}
+.user-feature-info,
+.wiki-box,
+.message-users,
+.tab-content.messenger,
+.mesg-area-head,
+.chater-info{
+	background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.msg-pepl-list .nav-item,
+.userabout{
+	border-color: #272f41;
+}
+.company-intro,
+.sidebar .widget .job-overview > li
+{
+	border-color: #272f41;
+}
+.job-tgs > a{
+	background: rgba(0,0,0,.3);
+	border-color: #272f41;
+	color: #999;
+}
+.text-box > p,
+.conversations > li.me .text-box > p{
+	background: #21283b;
+}
+.text-box > p::before{
+	border-color: transparent #21283b;
+}
+.me .text-box > p::before{
+	border-left-color: #21283b;
+}
+.btn.group.dropdown-toggle{
+	border-color: #272f41;
+}
+.message-writing-box > form .text-area input,
+.message-writing-box{
+	background: #282e3e none repeat scroll 0 0;
+    border-color: #272f41;
+    color: #fff;
+}
+.emojies-list,
+.text-box > p span{
+	background: #00001a;
+}
+.emojies-list::after{
+	border-top-color: #00001a;
+}
+.chosen-container-active.chosen-with-drop .chosen-single{
+	box-shadow: 0 1px 0 #000 inset;
+	border-color: #272f41;
+	background: #282e3e;
+}
+a.circle-btn{
+	background: #00001a;
+}
+.pit-tags > a{
+	border-color: #272f41;
+}
+.eror-robot{
+	background: #282e3e;
+}
+.card {
+    background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.accordion .card h5 button {
+    background: #1d2333 none repeat scroll 0 0;
+    color: #fff;
+}
+.tutor-links > li{
+	border-color: #272f41;
+}
+
+.option-list > ul,
+.option-list::after{
+	background: #00001a;
+}
+.event-invites{
+	border-color: #272f41;
+}
+.main-btn3 {
+    background: #383d58 none repeat scroll 0 0;
+	border: none;
+}
+.invite-figure > figure img{
+	border-color: #3c4456;
+}
+.central-meta button.btn-viewm{
+	background: #fa6342;
+}
+.event-date{
+	border-color: #373f51;
+}
+.profile-controls > li ul.more-dropdown,
+.more-opotnz > ul,
+.more-opotnz::after{
+	background: #00001a;
+}
+.friend-block{
+	background: #1d2333;
+	border-color: #272f41;
+}
+.fixed-sidebar.left .left-menu-full{
+	background: #1d2333;
+}
+.fixed-sidebar .left-menu-full > ul li{
+	border-color: #272f41;
+}
+.singin > form > input{
+	background: #282e3e;
+	color: #fff;
+}
+.checkbox .check-box::before{
+	box-shadow: unset;
+}
+.singin > form > button,
+.btn-secondary{
+	background: #fa6342;
+}
+.forum-list table thead tr th,
+.forum-list table tbody tr td{
+	border-color: #272f41; 
+}
+.forum-open table thead tr th{
+	color: #fff;
+	border-color: #272f41; 
+}
+.forum-open table tr td{
+	border-color: #272f41;
+}
+.birthday-box,
+.user-add,
+.demo-box,
+.available-widgets .drag-widget .connected-sortable > li{
+	background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.drag-widget .connected-sortable > li{
+	border-color: #272f41;
+}
+.again-login > input{
+	background: #40405f;
+	color: #fff;
+}
+.notification-box > ul > li{
+	border-color: #272f41;
+}
+.pitdate-user > span i{color: #fa6342;}
+.search-match,
+.friend-box,
+.friend-block,
+.item-upload{
+	background: #191f2f none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.menu-list > li > a{
+	border-color: #272f41;
+	background: #1d2333;
+	color: #959ab5;
+}
+.menu-list > li > a:hover{
+	background: #272d3d;
+	color: #fff;
+}
+aside.sidebar .friend-box .frnd-meta{
+	border-color: #272f41;
+}
+.loc > input,
+.full-postmeta{
+	background: #282e3e;
+    border: 1px solid #182130;
+    color: #fff;
+}
+.ui-slider-horizontal .ui-slider-range {
+    background: #00001a none repeat scroll 0 0;
+}
+.ui-slider-horizontal .ui-slider-handle{
+	background: #282e3e !important;
+    border: 1px solid #182130;
+}
+.slick-arrow{
+	background: #282e3e;
+    border: 1px solid #182130;
+}
+.right-detailmeta > ul > li{
+	background: #00001a;
+}
+.table thead th{
+	color: #fff;
+	border-color: #272f41;
+}
+.table td, .table th{
+	border-color: #272f41;
+	color: #959ab5;
+}
+.sub-links.static {
+    background: #11233a none repeat scroll 0 0;
+}
+.strp-container,
+.mega-menu{
+	background: #00001a;
+	border-color: #272f41;
+}
+.mega-menu > li > a > span{
+	background: #1d2333;
+	color: #fff;
+}
+.about-video,
+.read-more-trigger{
+	border-color: #272f41;
+}
+.pop-box{
+	background: #282e3e;
+    border: 1px solid #182130;
+	
+}
+.modl-box, .pop-box > button{
+	color: #fff;
+}
+.pop-box .modl-box.user-add, .modl-box.item-upload{background: inherit;}
+.d-flex .tab-content{
+	border-color: #272f41;
+}
+.nav-tabs--left .nav-link.active{
+	background: #1d2333;
+	border-color: #272f41;
+}
+.number{
+	background: #00001a;
+}
+.right-pst-meta > a.blu {
+    background: #676abf none repeat scroll 0 0;
+    color: #0c0e6a;
+}
+.sidebar .top-comuty > li{
+	border-color: #272f41;
+}
+.search-tab > .nav-tabs {
+    background: #243152 none repeat scroll 0 0;
+}
+.search-tab .nav-tabs .nav-item > a.active{
+	color: #fa6342;
+}
+.account-delete{
+	background: #243152 none repeat scroll 0 0;
+}
+.account-delete > div > button {
+    background: #181d38 none repeat scroll 0 0;
+}
+.cart-sec table tr th{
+	color: #fff;
+	border-color: #272f41;
+}
+.cart-sec table tr td{
+	border-color: #272f41;
+}
+.manual-adjust,
+.c-input-number > span > input.userincr-btn-dec,
+.c-input-number > span > input.userincr-btn-inc{
+	background: #00001a;
+	color: #fff;
+}
+.coupon-code > input{
+	background: rgba(0,0,0,.2);
+	border-color: #272f41;
+	color: #fff;
+}
+.smilez > li > span{
+	background: #00001a;
+}
+.post-title{
+	background: #243152;
+}
+.stat-box,
+.comon-help,
+.help-box,
+.help-list{
+	background: #1d2333 none repeat scroll 0 0;
+    border-color: #272f41;
+}
+.help-description > figure{
+	box-shadow: 0 0 13px #101010;
+	border: none;
+}
+.is-helpful,
+.help-description{
+	border-color: #272f41;
+}
+.post-dated > i{
+	color: #fa6342;
+}
+.group-box > button {
+    background: #3a3f5f none repeat scroll 0 0;
+ } 
+ .ico-box,
+ .hourly-forecast > li,
+ #searchDir .filterinput{
+	background: #141a2a none repeat scroll 0 0;
+    border-color: #272f41;
+} 
+#searchDir .filterinput{color: #9e9e9e;}
+.progress {
+    background-color: #00001a;
+ }
+.jalendar .jalendar-container .jalendar-pages > .header h2{
+	color: #fa6342;
+}
+.chat-box{
+	background: #1d2333;
+	border-color: #272f41;
+}
+.chat-message-item{
+	background: #141a2a;
+	color: #959ab5; 
+}
+.text-box > textarea{
+	background: #10102a;
+	border-color: #272f41;
+	color: #fff;
+}
+.chat-list > ul li.you .chat-message-item{
+	background: #141a2a;
+	color: #959ab5;
+}
+.more-optns > ul{
+	background: #00001a;
+	box-shadow: none;
+	color: #959ab5;;
+}
+.slick-prev::before, .slick-next::before{
+	background: #fff;
+}
+.fc-state-highlight {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+.fc-widget-header, .fc-widget-content{
+	border-color: #272f41;
+}
+.fc-state-default {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cecece;
+}
+.blog-grid,
+.testi-silver{
+	border-color: #272f41;
+}
+.panel-heading {
+    background: #1d2333;
+}
+.panel-body {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+.team-info{
+	background: #1d2333;
+}
+.price-box,
+.news-letter-bx{
+	background: #1d2333;
+}
+.leter-input input{
+	color: #fff;
+	background: #282e3e;
+	border-color: #272f41;
+}
+.serv-box::after{
+	background: #272f41;
+}
+.topbar.transperent.is_stuck{
+	background: rgba(26, 44, 60, 0.9) none repeat scroll 0 0;
+}
+
+
+.author-meta > h5, 
+.post-meta > h6,
+.position-meta > h6,
+.loc-cate > ul > li > span,
+.recent-jobs li h6,
+.job-tgs > span,
+.job-detail > h3,
+.c-form > div label,
+.carer-overview > span,
+.company-intro > h4,
+.search-meta > span,
+.active-user > div h6,
+.message-head > h4,
+.userabout > span, .media > span,
+.userabout > ul > li span,
+.msg-pepl-list .nav-item > a > div h6,
+.nave-area > li > a,
+.promo-meta > a,
+.classi-pst-meta > h6,
+.don-form > h4,
+.don-form > h5,
+.c-form.pay-card > span, .c-form.personal > span,
+.faq-area > h4,
+.main-title,
+.invite-figure > h6 a.invitor,
+.event-title > h4,
+.frnd-name > a,
+.title1,
+.forum-warper > h4,
+.forum-list table thead tr th,
+.forum-list table tbody tr td > a,
+.location > li i,
+.colla-apps > li a i,
+.sidebar .widget li > a,
+.widget ul.feature-topics > li > a,
+.big-ad > h1,
+.fun-box > h6,
+.app-download > span,
+.already-log > h4,
+.logout-f > h4,
+.demo-box > span,
+.total > span,
+.notifi-meta > p,
+.pitdate-user > h4,
+.search-match > h5,
+.age-opt > label,
+.loc > label,
+.succes-people li > h5,
+.left-detail-meta > h4,
+.member-des > h5,
+.title2,
+.pit-post-deta > h4,
+.pitrest-title,
+.tube-title > h6,
+.chanle-name > h4,
+.tube-pst-meta > h5,
+.video-frame > h4,
+.channl-author > h5,
+.about-video > h6, .comet-title,
+.links-tab li.nav-item > a,
+.about-chnl > ul > li span,
+.contributorz li span,
+.audio-title,
+.audio-user-name > h6,
+.set-title > h5, 
+.set-title > h6,
+.privacy-meta > h6,
+.nav-tabs--left .nav-link,
+.pitred-links > ul > li a,
+.pit-points > span,
+.comnty-avatar > a,
+.big-ad > h1,
+.app-download > span,
+.search-tab .nav-tabs .nav-item > a,
+.pit-frnz-meta > a, .pit-groups-meta > a, .pit-pages-meta > a,
+.onoff-options .setting-row > span,
+.account-delete > h5,
+.seting-box > span,
+.fileContainer,
+.classic-pst-meta > h4,
+.widget .reg-comp-meta > ul > li > span,
+.total-price,
+.total-area > ul li span,
+.song-title > h6,
+.quick-all > h4,
+.anlytc-meta > h4,
+.info-meta > h4,
+.pitnik-video-help > h4,
+.pitnik-title > h1,
+.help-list > h3,
+.comon-help > h4,
+.help-box > h6,
+.help-topic > h2,
+.assistant-name > span,
+.is-helpful > span,
+.help-topic-result > h2,
+h3.resutl-found,
+.activity-meta > span,
+.frnd-info > li span,
+.group-box > a,
+.upload-meta > h5,
+.feature-videometa > h4,
+.featurepost > h5,
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6,
+.typography .setting-row > span,
+blockquote p,
+.jalendar .jalendar-container .jalendar-pages > .header h1,
+.hourly-forecast > li > span,
+.contact-box > span,
+.sec-heading.style9 > h2,
+.fc-header-title h2,
+.welcome-area > h2,
+.serv-box > h4,
+.option-set.icon-style > li > a,
+.counter,
+.counter-meta > h2,
+.testi-meta > span,
+.team > h5,
+.heading-2 > h4,
+.team-info h2,
+.pricings > h2,
+.pricings > h1,
+.leter-meta > h2,
+.sub-popup > h4
+{
+	color: #fff;
+}
+
+
+
+
+.re-links-meta > h6,
+.friend-meta > h4,
+.tv-play-title,
+.job-progres > li,
+.job .description > p,
+.chosen-container .chosen-results li.active-result,
+.chosen-container-single .chosen-single span,
+.text-box > p span ins,
+.sidebar .widget li,
+.pay-methods > li,
+.forum-list table tbody tr td,
+.forum-static > li > span,
+.widget ul.recent-topics > li > a, .widget ul.feature-topics > li > a,
+.forum-open > h5,
+.big-ad > p,
+.fun-box > span,
+.colla-apps > li a,
+.total > em,
+.checkbox label, .form-radio label,
+.slider-box > input,
+.filter-ajex > li > a,
+.pit-opt > li > em,
+.follow > li span,
+.set-title > span,
+.create-meta > p,
+.big-ad > p,
+.colla-apps > li a,
+.post-meta.searched .detail > p,
+.pit-frnz-meta > i, .pit-groups-meta > i, .pit-pages-meta > i,
+.page-meta > span,
+.account-delete > div > span,
+.p-info,
+.reg-comp-meta > p,
+.cart-meta > span,
+.woocommerce-Price-amount.amount,
+.total-area > ul li i,
+.event-title > span,
+.song-title > a,
+.read-more-trigger,
+.anlytc-meta > span,
+.comon-help > span > i,
+.share-article > span,
+.post-dated > span,
+.group-box > span,
+.jalendar .jalendar-container .jalendar-pages .days .day,
+.fc-widget-header, .fc-widget-content,
+.blog-title > a,
+.testi-meta > p,
+.pricings > p
+{
+	color: #959ab5;
+}
+

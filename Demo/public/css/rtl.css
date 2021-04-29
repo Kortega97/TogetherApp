@@ -1,0 +1,1084 @@
+
+/*
+[Master Stylesheet]
+
+Project Name: Pitnik Dark theme
+Version:    1.2 RTL
+updated: 	23 March 2020
+
+*/
+body{
+	direction: rtl;
+}
+
+.top-search {
+    float: right;
+}
+.top-search button {
+    left: 6px;
+    right: auto;
+}
+.logo {
+    text-align: right;
+}
+.page-name {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 0 none;
+    float: right;
+}
+.top-area > ul {
+    float: right;
+}
+.top-area > span.main-menu {
+    line-height: 60px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.main-menu {
+    line-height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.top-area .user-img > span.status {
+    left: 5px;
+    right: auto;
+}
+.top-area .user-img {
+    float: left;
+}
+ul, ol {
+    padding-right: 0;
+}
+.mesg-meta {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.mesg-meta > span > i {
+}
+.mesg-meta > span {
+    float: right;
+}
+.add-del-friends {
+    left: 30px;
+    right: auto;
+}
+.dropdowns {
+    left: -50px;
+    right: auto;
+}
+.dropdown-meganav-select-list-lang > li > a {
+    text-align: right;
+}
+.dropdown-meganav-select-list-lang > li > a > img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.seting-title {
+    text-align: right;
+}
+.seting-title > a {
+    float: left;
+}
+.user-setting ul.chat-setting li a {
+    padding-left: 15px;
+    padding-right: 35px;
+    text-align: right;
+}
+.user-setting .status {
+    left: auto;
+    right: 15px;
+}
+.user-setting > ul li a {
+    text-align: right;
+}
+.user-setting > ul li a i {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.user-setting::before {
+    left: 55%;
+}
+.user-setting {
+    left: 86px;
+}
+.setting-row > span {
+    text-align: right;
+}
+.setting-row input + label {
+    float: right;
+}
+.panel-title {
+    margin-bottom: 20px;
+    text-align: right;
+}
+.fixed-sidebar .left-menu-full > ul li a {
+    text-align: right;
+}
+.menu-slide .menu-item-has-children::before {
+    left: 0;
+    right: auto;
+}
+.chat-list {
+    direction: ltr;
+}
+.menu-item-has-children ul.submenu > li a::before {
+    left: auto;
+    right: -12px;
+}
+.submenu {
+    padding-left: 0;
+    padding-right: 28px;
+}
+.profile-controls {
+    border-radius: 0 7px 7px 0;
+    left: 0;
+    right: auto;
+}
+.create-post {
+    text-align: right;
+}
+.create-post > a {
+    float: left;
+}
+.central-meta {
+    text-align: right;
+}
+.f-title i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.fav-play {
+    text-align: center;
+}
+.owl-carousel {
+    direction: ltr;
+}
+.sociaz-media > li{
+	float: right;
+}
+.text-box > textarea {
+    text-align: right;
+}
+.add-smiles {
+    left: 10px;
+    right: auto;
+}
+.smiles-bunch {
+    left: -8px;
+    right: auto;
+}
+.smiles-bunch::before {
+    left: 11px;
+    right: auto;
+}
+.chat-head {
+    padding: 10px 30px 10px 20px;
+    text-align: right;
+}
+.more {
+    float: left;
+}
+.more > span {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.chat-head span.status {
+    left: auto;
+    right: 10px;
+}
+.chat-head > h6 {
+    unicode-bidi: bidi-override;
+}
+.over-photo {
+    direction: ltr;
+    text-align: left;
+}
+.copyright {
+    float: right;
+}
+.bottombar i {
+    float: left;
+}
+.foot-logo > p {
+    text-align: right;
+}
+.location > li {
+    text-align: right;
+}
+.location > li i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.widget .list-style {
+    text-align: right;
+}
+.widget-title {
+    text-align: right;
+}
+footer .widget-title h4::before {
+    left: auto;
+    right: 0;
+}
+.list-style > li > i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.colla-apps > li a i {
+    margin-left: 12px;
+    margin-right: 0;
+	float: right;
+}
+.colla-apps > li a {
+    text-align: right;
+}
+.offset-lg-1 {
+    margin-left: auto;
+    margin-right: 8.33333%;
+}
+
+.align-left {
+    float: right;
+}
+.title-block form button {
+    left: 10px;
+    right: auto;
+}
+.chosen-container-single .chosen-single div {
+    left: 7px;
+    right: auto;
+}
+.option-list > ul {
+    left: 0;
+    right: auto;
+}
+.sidebar .widget li {
+    text-align: right;
+}
+.sidebar .widget li i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.friend-name {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.friend-name > span {
+    float: right;
+}
+.we-video-info {
+    direction: ltr;
+    text-align: left;
+}
+.user-inf-meta {
+    text-align: right;
+}
+.user-figure {
+    text-align: right;
+}
+.author-meta > span {
+    float: right;
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.user-figure > a {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.job-progres > li {
+    margin-left: 60px;
+}
+.job-progres > li:last-child {
+    margin-left: 0;
+}
+.jobbox-title {
+    float: right;
+}
+.job-search-form > a {
+    float: left;
+}
+.sidebar .widget > ul {
+    text-align: right;
+}
+.widget-title .see-all {
+    float: left;
+}
+.sidebar .widget-title::before {
+    left: auto;
+    right: 0;
+}
+.recent-jobs li h6 a {
+    float: right;
+}
+.recent-jobs li h6 span {
+    float: left;
+}
+.position-meta > a {
+    float: right;
+}
+.position-meta > span {
+    float: left;
+}
+.position-meta {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.job .friend-name > span{float: left;}
+.loc-cate > ul.loc > li{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.job-price {
+    float: left;
+}
+.widget.stick-widget > div{
+    float: right !important;
+}
+.salary-area {
+    text-align: left;
+}
+.employer-info {
+    text-align: right;
+}
+.chosen-container-single .chosen-single span {
+    text-align: right;
+}
+.c-form {
+    text-align: right;
+}
+.form-radio .radio > label {
+    text-align: right;
+}
+.job-detail > ul li i{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.related-links > li > i{
+    margin-left: 8px;
+    margin-right: 0;
+    transform: rotate(-180deg);
+}
+.company-intro {
+    text-align: right;
+}
+.friend-info > ol.pit-rate{float: left;}
+.searched .friend-info .friend-name span{float: right;}
+.wiki-box{text-align: right;}
+.widget.stick-widget{display: block;}
+.tab-content.messenger, .message-users{direction: ltr;}
+
+.mega-menu {
+    left: 0;
+    right: auto;
+}
+.nave-area > li {
+    margin-left: 25px;
+    margin-right: 0;
+}
+.user-ben > li {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.page-meta {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.page-meta > span i {
+    float: right;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 6px;
+}
+.invitepage > li > figure {
+    float: right;
+}
+.invitepage > li > figure a {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.classi-pst-meta > span ins, .invitepage > li > a{float: left;}
+.more-post-optns > ul {
+    left: -100px;
+}
+.more-post-optns:hover > ul {
+    left: -1px;
+}
+.more-post-optns > ul > li i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.banermeta {
+    text-align: right;
+}
+.baner-top > span {
+    text-align: right;
+}
+.coming-meta > form input,
+.sub-popup input{
+    text-align: left; direction: ltr;
+}
+.nav-list > li ul > li > ul {
+    right: 100%;
+    text-align: right;
+}
+.nav-list > li ul {
+    text-align: right;
+}
+.nav-list > li:last-child > ul {
+    left: 0;
+    right: auto;
+}
+.welcome-area {
+    text-align: right;
+}
+.welcome-area > h2::before {
+    left: auto;
+    right: 0;
+}
+.blog-title {
+    text-align: right;
+}
+a.date {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.postby {
+    direction: rtl;
+    text-align: right;
+}
+.postby > li {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.postby > li > i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.counter-meta {
+    text-align: right;
+}
+.count {
+    float: right;
+}
+.testi-meta > p {
+    text-align: right;
+}
+.tab-sec {
+    text-align: right;
+}
+.panel-title i i {
+    float: left;
+}
+#accordion .panel-title {
+    margin-bottom: 0;
+}
+.team {
+    text-align: right;
+}
+.leter-meta {
+    text-align: right;
+}
+.leter-input input {
+    direction: ltr;
+    text-align: left;
+}
+footer .logo {
+    text-align: center;
+}
+.pittop-meta {
+    direction: ltr;
+}
+.chosen-container-single .chosen-single span {
+    margin-right: 0;
+}
+.don-form > h4 {
+    float: right;
+}
+.friend-meta > a {
+    float: left;
+}
+.friend-meta {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.error-meta {
+    padding-left: 0;
+    padding-right: 80px;
+    text-align: right;
+}
+.robo-meta {
+    text-align: right;
+}
+.error-page {
+    text-align: right;
+}
+.faq-area {
+    text-align: right;
+}
+.accordion .card h5 button::before {
+    float: left;
+}
+.accordion .card h5 button {
+    text-align: right;
+}
+.vid-links {
+    text-align: right;
+}
+.tutor-links > li i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.getquot-baner > a {
+    float: left;
+}
+.getquot-baner > span {
+    float: right;
+}
+.header-inner > form > button {
+    left: -1px;
+    right: auto;
+}
+.header-inner > form input {
+    padding: 13px 20px 13px 90px;
+    text-align: right;
+}
+.socials {
+    direction: ltr;
+    text-align: left;
+}
+.socials > li a {
+    text-align: left;
+}
+.invite-location .users-thumb-list,
+.page-likes .users-thumb-list {
+    direction: ltr;
+}
+.invite-figure > h6 {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.option-list {
+    float: left;
+    text-align: left;
+}
+.option-list::after {
+    left: auto;
+    right: -1px;
+}
+.title-block h5 > span {
+    left: -35px;
+    right: auto;
+}
+.align-left {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.friend-block .frnd-meta {
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+.friend-block .more-opotnz {
+    left: 15px;
+    right: auto;
+}
+.friend-block .more-opotnz > ul {
+    left: 0;
+    right: auto;
+}
+.frnd-name{text-align: right;}
+.attachments > ul {
+    direction: ltr;
+}
+.more-post-optns:hover > ul {
+    left: -1px;
+    right: auto;
+}
+.inline-itms > a i {
+    margin-left: 3px;
+    margin-right: 0;
+}
+.uploadimage {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.add-smiles > span {
+    margin-left: 10px;
+}
+.monthly-weather {
+    direction: ltr;
+}
+.widget .monthly-weather > ul > li {
+    text-align: center;
+}
+.invitepage > li a i {
+    margin-left: 0 !important;
+}
+.nav-list > li ul{left: auto; right: 0;}
+.forum-list table tbody tr td:first-child{text-align: right;}
+.forum-warper > h4 {
+    float: right;
+}
+a.addnewforum {
+    float: left;
+}
+.forum-list table tbody tr td i{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.more-opotnz {
+    float: left;
+}
+.birthday-box .frnd-meta {
+    text-align: right;
+}
+.advertisment-box > h4 {
+    text-align: right;
+}
+.big-ad {
+    text-align: right;
+}
+.colla-apps > li a img {
+    margin-left: 6px;
+    margin-right: 0;
+}
+.forgot {
+    float: left;
+}
+.logout-form {
+    text-align: right;
+}
+.user-log > i {
+    left: auto;
+    right: 18px;
+}
+.already-log {
+    text-align: right;
+}
+.logout-f {
+    text-align: right;
+}
+.grey-box .setting-row input + label{float: unset;}
+.loc > label {
+    text-align: right;
+}
+.age-opt > label {
+    text-align: right;
+}
+.range-slider {
+    float: left;
+}
+.pitdate-user > a {
+    float: left;
+}
+.more .more-post-optns > ul {
+    left: auto;
+    right: 0;
+}
+.succes-people li > h5 {
+    text-align: center;
+    unicode-bidi: bidi-override;
+}
+.menu-list > li,
+.featured-baner > h2 {
+    text-align: right;
+}
+.menu-list > li > a > i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.prod-detail {
+    direction: ltr;
+}
+.full-postmeta {
+    direction: rtl;
+    text-align: right;
+}
+.right-detailmeta {
+    float: left;
+}
+.share {
+    float: left;
+}
+.right-detailmeta {
+    text-align: center;
+}
+.buttons{
+    float: left;
+}
+.pit-post-deta {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.post-up-time > li {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.pit-opt > li {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.pit-opt > li > em {
+    margin-left: 0;
+    margin-right: 4px;
+}
+.pitrest-post {
+    text-align: right;
+}
+.pitrest-title {
+    text-align: right;
+}
+.add-pitrest {
+    text-align: left;
+}
+.feature-title {
+    text-align: right;
+}
+.upload-time {
+    float: left;
+}
+.tube-pst-meta {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.pittube-video {
+    direction: ltr;
+}
+.uploadtime {
+    float: left;
+}
+.video-frame .pit-opt {
+    float: right;
+}
+.pit-opt > li > em {
+    margin-left: 4px;
+    margin-right: 0;
+}
+.chosen-container-multi .chosen-choices li{
+    float: right;
+}
+.share-to-other {
+    direction: ltr;
+    float: left;
+}
+.form-radio .radio {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.Rpt-meta > span {
+    float: right;
+}
+.friend-group .change-photo{text-align: right;}
+.event-detailmeta{text-align: right;}
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem;
+}
+.classic-post > figure > span, .image-bunch > span {
+    left: auto;
+    right: -10px;
+}
+.classic-post > figure > span, .image-bunch > span {
+    left: auto;
+    right: -10px;
+}
+.location-area .main-btn {
+    float: left;
+}
+.prise {
+    float: left;
+}
+.classic-pst-meta {
+    padding-left: 0;
+    padding-right: 8px;
+}
+.origin-name {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.add-send {
+    float: left;
+}
+.price-features {
+    text-align: right;
+}
+.price-features > li > i {
+    float: right;
+    margin-left: 7px;
+    margin-right: 0;
+}
+.set-title > span {
+    float: right;
+}
+.nav-tabs--left .nav-link {
+    text-align: right;
+}
+.policy .nav-link.active::before {
+    left: auto;
+    right: 0;
+}
+.onoff-options .setting-row > p {
+    float: right;
+}
+.onoff-options .setting-row > label {
+    float: left;
+}
+.con-pts {
+    float: left;
+}
+.pitred-links > ul > li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.pitred-links .main-btn {
+    margin-left: 20px;
+}
+.view-pst-style {
+    float: right;
+    margin-top: 8px;
+}
+.pit-opt > li > em {
+    margin-left: 0;
+    margin-right: 4px;
+}
+.number {
+    float: left;
+}
+.sidebar .top-comuty > li {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.sidebar .widget .top-comuty > li > a {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.top-comunitez > figure > span {
+    left: auto;
+    right: 20px;
+    text-align: right;
+    unicode-bidi: bidi-override;
+    width: auto;
+}
+.friend-name .more .more-post-optns > ul {
+    left: 0;
+    right: auto;
+}
+.add-remove-frnd {
+    float: left !important;
+}
+.pit-frnz-meta, .pit-groups-meta, .pit-pages-meta{
+    padding-left: 0;
+    padding-right: 8px;
+}
+.nav-tabs--vertical {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.account-delete > div > button {
+    float: left;
+}
+.nav-tabs--left .nav-link > i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.checkbox label, .form-radio label{
+    text-align: right;
+}
+.progresdiv{direction: ltr;}
+.cart-sec table tr td .cart-avatar {
+    float: right;
+}
+.delete-cart {
+    left: auto;
+    right: 10px;
+}
+.cart-sec table tr td .cart-meta {
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+.cart-meta > span {
+    text-align: right;
+}
+.coupon-code > input {
+    direction: ltr;
+    text-align: left;
+}
+.total-area > ul li span {
+    float: right;
+    margin-right: 0;
+}
+.total-area > ul li i {
+    float: left;
+}
+.total-area > ul {
+    text-align: right;
+}
+.total-area > ul li {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+.proceed {
+    text-align: left;
+}
+.slick-slider {
+    direction: ltr;
+}
+.post-title {
+    text-align: right;
+}
+.twiter-feed {
+    direction: ltr;
+}
+.widget .twiter-feed li {
+    text-align: left;
+}
+.sound-title {
+    text-align: right;
+}
+.sound-post-box > h4 {
+    text-align: right;
+}
+.sound-usr-nm {
+    padding-left: 0;
+    padding-right: 5px;
+    text-align: right;
+}
+.music-track {
+    direction: ltr;
+}
+.follow > li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.pit-opt {
+    text-align: right;
+}
+.uploadtime > i {
+    margin-left: 6px;
+    margin-right: 0;
+}
+.addnsend {
+    margin-top: 15px;
+}
+.playlist-box > ul {
+    text-align: right;
+}
+.playlist-box > ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.song-title {
+    padding-left: 0;
+    padding-right: 8px;
+}
+.stat-box {
+    direction: ltr;
+}
+.x_panel {
+    direction: ltr;
+    float: left;
+    text-align: left;
+}
+.pitnik-video-help {
+    text-align: right;
+}
+.help-list > ul li a {
+    text-align: right;
+    unicode-bidi: bidi-override;
+}
+.help-list > ul li a i {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.help-list {
+    text-align: right;
+}
+.verified {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.assistant-name {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.is-helpful > em {
+    float: left;
+}
+.help-topic-result .checkd {
+    left: auto;
+    right: 0;
+}
+.help-topic-result {
+    padding-left: 0;
+    padding-right: 60px;
+}
+.friend-box .frnd-meta > img {
+    float: left;
+}
+.featurepost > h5 > i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.setting-row > p {
+    text-align: right;
+}
+.ico-box {
+    text-align: center;
+}
+.dropcap-head > .dropcap {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+blockquote > i {
+    left: auto;
+    right: 0;
+}
+.re-links-meta {
+    padding-left: 0;
+    padding-right: 7px;
+}
+.comnity-detail {
+    text-align: right;
+}
+.event-single {
+    text-align: right;
+}
+.introjs-tooltipbuttons{
+    direction: ltr;
+    text-align: left;
+}
+.story-user {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.my-status .main-btn {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
